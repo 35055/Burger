@@ -1,0 +1,113 @@
+.main2 {
+    background: rgba(0, 0, 0, 0.753);
+    z-index: -1;
+    padding: 30px 0;
+}
+
+.main2__img {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.main2__content {
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.main2__text {
+    font-size: 55px;
+    line-height: 65px;
+    text-transform: uppercase;
+    color: rgba(105, 207, 23, 0.7);
+    z-index: 2;
+    font-family: Roboto-Bold;
+    text-shadow: 0px 0px 15px rgba(191, 171, 171, 0.4);
+    position: absolute;
+}
+
+.main2__text-main {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    color: #FFFFFF;
+    font-family: Roboto-Bold ;
+    
+}
+
+
+@media (max-width:1230px){
+    .main2__text-main{
+        font-size: 14px;
+        overflow: auto;
+        height: 200px;
+    }
+}
+
+@media (max-width:1180px){
+    .main2__img{
+        max-width: 900px;
+        width: 100%;
+    }
+    .main2__text-main{
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: -30px;
+    }
+}
+
+@media (max-width:950px) {
+    .main2__img{
+        max-width: 700px;
+        width: 100%;
+    }
+    .main2__text-main{
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: -60px;
+    }
+}
+
+@media (max-width:750px) {
+    .main2__img{
+        max-width: 550px;
+        width: 100%;
+    }
+    .main2__text-main{
+        max-width: 550px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: -80px;
+        height: 100px;
+    }
+    .main2__content{
+        height: 300px;
+    }
+}
+
+@media (max-width:580px) {
+    .main2__img{
+        max-width: 400px;
+        width: 100%;
+    }
+    .main2__text-main{
+        max-width: 400px;
+        width: 100%;
+        margin-top: -60px;
+        height: 100px;
+        font-size: 10px;
+    }
+    .main2__text{
+        font-size: 20px;
+    }
+    .main2__content{
+        height: 200px;
+    }
+}
+
